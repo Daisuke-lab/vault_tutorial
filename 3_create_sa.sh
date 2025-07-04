@@ -1,5 +1,5 @@
 # Write a yaml file for Service Account
-cat <<EOF > ./nginx-sa.yaml
+cat <<EOF > ./hoge-sa.yaml
 apiVersion: v1
 kind: ServiceAccount
 metadata:
@@ -8,4 +8,4 @@ metadata:
 EOF
 
 # Create a service account
-kubectl apply -f nginx-sa.yaml
+kubectl apply -f hoge-sa.yaml
